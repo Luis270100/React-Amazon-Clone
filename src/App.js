@@ -13,10 +13,10 @@ class App extends Component {
             <Route extact path="/checkout">Checkout</Route>
             <Route extact path="/login">Login</Route>
             <Route extact path="/">
-              <Navbar />
+              <Navbar/>
               <Home></Home>
-              </Route>
-
+            </Route>
+            
           </Switch>
         </div>
 
